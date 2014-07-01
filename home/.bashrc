@@ -28,8 +28,8 @@ shopt -s checkwinsize
 export GIT_PS1_SHOWDIRTYSTATE=true
 export GIT_PS1_SHOWUNTRACKEDFILES=true
 
-source ~/home/git-completion.bash
-source ~/home/git-status.sh
+source ~/git-completion.bash
+source ~/git-status.sh
 
 #  SETUP CONSTANTS
 #  Bunch-o-predefined colors.  Makes reading code easier than escape sequences.
