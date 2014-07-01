@@ -1,0 +1,24 @@
+alias b='bundle'
+alias bi='b install'
+alias binit='bi && b package'
+alias bu='b update'
+alias be='b exec'
+
+alias est='sudo ln -sf /usr/share/zoneinfo/US/Eastern /etc/localtime'
+alias utc='sudo ln -sf /usr/share/zoneinfo/UTC /etc/localtime'
+
+alias gl="git log -20 --graph --pretty=format:'%C(auto)%h -%d %s %Cgreen(%an %cr)%Creset' --abbrev-commit --date=relative --all"
+alias gs="git status"
+alias gb="git branch"
+alias ga="git add"
+alias gc="git commit"
+
+alias rdbm="be rake db:migrate; be rake db:migrate RAILS_ENV=test"
+
+alias rspec="be rspec"
+alias cucumber="be cucumber"
+alias c="cucumber"
+alias cop="be cop"
+
+alias bp="vi ~/.bash_profile"
+alias bps="source ~/.bash_profile"

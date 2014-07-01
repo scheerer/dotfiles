@@ -1,0 +1,21 @@
+[push]
+default = matching
+
+[hub]
+protocol = https
+
+[core]
+editor = vim
+
+[help]
+autocorrect = 1
+
+[color]
+ui = true
+
+[user]
+name = Russell Scheerer
+email = russell.scheerer@gmail.com
+
+[github]
+user = scheerer
